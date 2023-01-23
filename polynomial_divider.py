@@ -7,7 +7,7 @@ for i in range(int(input("Please enter the power of the divisor: ")) + 1):
 
 solution = []
 for i in range(len(dividend) - len(divisor) + 1):
-    if dividend[i] == 0 or divisor[0] == 0:
+    if dividend[i] == 0:
         solution.append(0)
         continue
     solution.append(dividend[i] / divisor[0])
